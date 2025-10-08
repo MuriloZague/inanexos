@@ -3,40 +3,192 @@
     "id": 1,
     "titulo": "Procuração para Representação no INSS",
     "categoria": "Procuração",
-    "descricao": "Formulário para outorgar poderes a um procurador para representação junto ao INSS",
-    "link": "https://portalin.inss.gov.br/assets/anexos/in/AnexoXXII.docx",
+    "descricao": "Formulário para outorgar poderes a um procurador para representação junto ao INSS, acompanha Termo de Responsabilidade.",
+    "link": "procuracao.pdf",
     "date": "07/10/2025"
   },
   {
     "id": 2,
-    "titulo": "Recurso de Benefício",
-    "categoria": "Recursos",
-    "descricao": "Formulário para interposição de recurso contra decisão administrativa",
-    "link": "https://www.gov.br/inss/pt-br/arquivos/recurso-beneficio.pdf",
+    "titulo": "Termo de Resposabilidade",
+    "categoria": "Procuração",
+    "descricao": "Formulário de termo de responsabilidade que normalmente acompanha a Procuração, apenas o termo em anexo.",
+    "link": "termo-responsabilidade.pdf",
     "date": "07/10/2025"
   },
   {
     "id": 3,
-    "titulo": "Procuração",
-    "categoria": "Representante Legal",
-    "descricao": "Formulário para nomear um procurador.",
-    "link": "https://www.gov.br/inss/pt-br/arquivos/procuracao.pdf",
+    "titulo": "Recurso de Benefício",
+    "categoria": "Recursos",
+    "descricao": "Formulário para interposição de recurso contra decisão administrativa.",
+    "link": "junta-de-recursos.pdf",
     "date": "07/10/2025"
   },
   {
     "id": 4,
-    "titulo": "Procuração",
-    "categoria": "Representante Legal",
-    "descricao": "Formulário para nomear um procurador.",
-    "link": "https://www.gov.br/inss/pt-br/arquivos/procuracao.pdf",
+    "titulo": "Verificacao de Duas Etapas",
+    "categoria": "Senha GOV",
+    "descricao": "Passo a passo para remover a verificacao de duas etapas da conta GOV.",
+    "link": "verificacao-duas-etapas.pdf",
     "date": "07/10/2025"
   },
   {
     "id": 5,
-    "titulo": "Procuração",
-    "categoria": "Representante Legal",
-    "descricao": "Formulário para nomear um procurador.",
-    "link": "https://www.gov.br/inss/pt-br/arquivos/procuracao.pdf",
+    "titulo": "Resultado Perícia Médica",
+    "categoria": "Perícia",
+    "descricao": "Documento que informa horário do resultado da perícia médica, geralmente 21 horas.",
+    "link": "resultado-pericia-21horas.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 6,
+    "titulo": "Modelo Saldo Residual - 1 Benefício",
+    "categoria": "Saldo Residual",
+    "descricao": "Documento de modelo para saldo residual de falecido, modelo de 1 benefício.",
+    "link": "modelo-saldo-residual-1beneficio.doc",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 7,
+    "titulo": "Modelo Saldo Residual - 2 Benefícios",
+    "categoria": "Saldo Residual",
+    "descricao": "Documento de modelo para saldo residual de falecido, modelo de 2 benefícios.",
+    "link": "modelo-saldo-residual-2beneficio.doc",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 8,
+    "titulo": "Passo a Passo para alterar senha GOV",
+    "categoria": "Senha GOV",
+    "descricao": "Passo a passo para guiar o segurado a acessar a conta GOV com a senha provisória emitida.",
+    "link": "passo-a-passo-alterar-senha-provisoria.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 9,
+    "titulo": "Passo a Passo para Excluir os Descontos de Entidades Associativas",
+    "categoria": "Senha GOV",
+    "descricao": "Passo a passo para guiar o segurado a excluir e bloquear os descontos de entidades associativas de seu benefício.",
+    "link": "passo-a-passo-remover-descontos-entidades-associativas.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 10,
+    "titulo": "Serviços do INSS",
+    "categoria": "INSS",
+    "descricao": "Documento que mostra todos os serviços do INSS, com agendamentos, sem agendamentos e exclusivos do aplicativo 'Meu INSS'.",
+    "link": "servicos-inss.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 11,
+    "titulo": "Valores de Contribuição do INSS",
+    "categoria": "INSS",
+    "descricao": "Documento que mostra os valores para contribuintes facultativos e autonomos em 11% e 20% do salário mínimo (2025).",
+    "link": "valores-contribuicao.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 12,
+    "titulo": "Papéis 135",
+    "categoria": "INSS",
+    "descricao": "Papel com vários 135's impressos.",
+    "link": "papeis-135.png",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 13,
+    "titulo": "Dados para Atualização Cadastral",
+    "categoria": "INSS",
+    "descricao": "Formulário para atualização cadastral.",
+    "link": "dados-atualizacao-cadastral.odt",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 14,
+    "titulo": "Rascunho para Cópias de Processos",
+    "categoria": "INSS",
+    "descricao": "Rascunho para cópias de processos.",
+    "link": "copia-processo-rascunho.doc",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 15,
+    "titulo": "Passo a Passo para Desbloqueio para Empréstimos",
+    "categoria": "INSS",
+    "descricao": "Passo a passo para guiar o segurado a desbloquear o benefício para empréstimo bancário no aplicativo 'Meu INSS'.",
+    "link": "desbloqueio-emprestimo.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 16,
+    "titulo": "Capa AP com Banco",
+    "categoria": "INSS",
+    "descricao": "Capa de modelo para AP's com banco, apenas remover o campo banco de a AP não possuir.",
+    "link": "capa-ap-banco.odt",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 17,
+    "titulo": "Laudo Pericial para Insenção de Imposto de Renda",
+    "categoria": "Perícia",
+    "descricao": "Laudo pericial para médico fazer a insenção de imposto de renda.",
+    "link": "laudo-pericial-insencao-imposto-de-renda.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 18,
+    "titulo": "Nada Consta",
+    "categoria": "INSS",
+    "descricao": "Declaração do INSS imformando que segurado não recebe benefícios do INSS, documento sem uso pois já existe a opção 'Declaração de Benefícios'.",
+    "link": "nada-consta.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 19,
+    "titulo": "Pedido CTC",
+    "categoria": "INSS",
+    "descricao": "Formulário para pedido de CTC.",
+    "link": "pedido-ctc.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 20,
+    "titulo": "Passo a Passo para Consultar Descontos de Entidades Associativas",
+    "categoria": "INSS",
+    "descricao": "Passo a passo para guiar o segurado a consultar descontos de sindicatos.",
+    "link": "desconto-sindicato.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 21,
+    "titulo": "Informação BPC/LOAS Bloqueado",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo sobre bloqueio de BPC/LOAS.",
+    "link": "bpc-bloqueio.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 22,
+    "titulo": "Registro de Biometria BPC/LOAS",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo para registro de biometria de pedidos novos de BPC/LOAS.",
+    "link": "registro-biometria-bpc.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 23,
+    "titulo": "Atendimento dos Correios",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo para orientar sobre atentimento auxiliar dos Correios.",
+    "link": "atendimento-correios.pdf",
+    "date": "07/10/2025"
+  },
+  {
+    "id": 24,
+    "titulo": "Capa de Arquivo Morto",
+    "categoria": "INSS",
+    "descricao": "Capa modelo para arquivo morto.",
+    "link": "capa-arquivo-morto.doc",
     "date": "07/10/2025"
   }
 ]

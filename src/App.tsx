@@ -4,6 +4,7 @@ import { Card } from './components/Card';
 import type { Formulario } from './types';
 
 import React, { useEffect, useState } from "react";
+import Footer from './components/Footer';
 
 
 const App: React.FC = () =>  {
@@ -23,7 +24,7 @@ const App: React.FC = () =>  {
   );
 
   return (
-    <section className='flex flex-col gap-10'>
+    <section className='flex flex-col gap-10 mb-6'>
 
       <Header />
       <SearchBar onChange={setBusca} value={busca}/>
@@ -40,6 +41,7 @@ const App: React.FC = () =>  {
         </div>
       )}
 
+      <Footer />
     </section>
   );
 };
