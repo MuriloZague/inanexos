@@ -12,7 +12,7 @@ const App: React.FC = () =>  {
     const [busca, setBusca] = useState("");
 
     useEffect(() => {
-    fetch("./public/forms.json")
+    fetch("/forms.json")
       .then((res) => res.json())
       .then((data) => setFormularios(data))
       .catch((err) => console.error("Erro ao carregar JSON:", err));
