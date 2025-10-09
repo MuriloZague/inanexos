@@ -190,5 +190,13 @@
     "descricao": "Capa modelo para arquivo morto.",
     "link": "capa-arquivo-morto.doc",
     "date": "07/10/2025"
+  },
+  {
+    "id": 25,
+    "titulo": "Recebimento de Aposentadoria/Pensão em outro Regime",
+    "categoria": "INSS",
+    "descricao": "Formulário a ser preenchido caso segurado receba aposentadoria ou pensão em outro regime que não seja o INSS",
+    "link": "pensao_aposentadoria_outro_regime.pdf",
+    "date": "09/10/2025"
   }
 ]
