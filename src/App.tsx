@@ -34,7 +34,7 @@ const App: React.FC = () =>  {
           Nenhum formulário encontrado.
         </p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-24">
           {filtrados.map((form) => (
             <Card key={form.id} form={form} />
           ))}
