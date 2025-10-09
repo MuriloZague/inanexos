@@ -4,7 +4,7 @@ import { FileText, Calendar, Download } from "lucide-react";
 
 export const Card: React.FC<{ form: Formulario }> = ({ form }) => {
   return (
-    <div className="bg-white rounded-lg border-2 border-gray-300 hover:border-blue-200 hover:shadow-lg transition">
+    <div className="bg-white rounded-lg border-2 border-[#5c708a] hover:border-[#bedbff] hover:shadow-lg transition">
 
       <div className="p-6">
       <div className="flex items-center mb-3">
