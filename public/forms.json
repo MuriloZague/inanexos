@@ -25,9 +25,9 @@
   },
   {
     "id": 4,
-    "titulo": "Verificacao de Duas Etapas",
+    "titulo": "Verificação de Duas Etapas",
     "categoria": "Senha GOV",
-    "descricao": "Passo a passo para remover a verificacao de duas etapas da conta GOV.",
+    "descricao": "Passo a passo para remover a verificação de duas etapas da conta GOV.",
     "link": "verificacao-duas-etapas.pdf",
     "date": "07/10/2025"
   },
@@ -198,5 +198,29 @@
     "descricao": "Formulário a ser preenchido caso segurado receba aposentadoria ou pensão em outro regime que não seja o INSS",
     "link": "pensao_aposentadoria_outro_regime.pdf",
     "date": "09/10/2025"
+  },
+  {
+    "id": 26,
+    "titulo": "Autodeclaração do Segurado Especial - Rural",
+    "categoria": "INSS",
+    "descricao": "Formulário a ser preenchido para segurado especial rural",
+    "link": "autodeclaracaorural.pdf",
+    "date": "15/10/2025"
+  },
+  {
+    "id": 27,
+    "titulo": "Autodeclaração do Segurado Especial - Pescador",
+    "categoria": "INSS",
+    "descricao": "Formulário a ser preenchido para segurado especial pescador",
+    "link": "autodeclaracaopescador.pdf",
+    "date": "15/10/2025"
+  },
+  {
+    "id": 28,
+    "titulo": "Autodeclaração do Segurado Especial - Seringueiro e Extrativista Vegetal",
+    "categoria": "INSS",
+    "descricao": "Formulário a ser preenchido para segurado especial seringueiro e extrativista vegetal",
+    "link": "autodeclaracaoseringueiroextrativista.pdf",
+    "date": "15/10/2025"
   }
 ]
