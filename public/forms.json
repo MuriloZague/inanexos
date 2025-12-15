@@ -222,5 +222,13 @@
     "descricao": "Formulário a ser preenchido para segurado especial seringueiro e extrativista vegetal",
     "link": "autodeclaracaoseringueiroextrativista.pdf",
     "date": "15/10/2025"
+  },
+  {
+    "id": 29,
+    "titulo": "Cartaz Horário APS - 7hrs a 13hrs",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente ao horário de atendimento da APS de Fernandópolis.",
+    "link": "cartaz-horario-agencia.pdf",
+    "date": "15/12/2025"
   }
 ]
