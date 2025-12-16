@@ -230,5 +230,109 @@
     "descricao": "Cartaz informativo referente ao horário de atendimento da APS de Fernandópolis.",
     "link": "cartaz-horario-agencia.pdf",
     "date": "15/12/2025"
+  },
+  {
+    "id": 30,
+    "titulo": "Cartaz Revisão BPC - Consultar pelo APP",
+    "categoria": "Senha GOV",
+    "descricao": "Cartaz informativo referente a consulta que pode ser feita referente a reavaliação de BPC",
+    "link": "revisaobpcconsultarpeloapp.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 31,
+    "titulo": "Prova de Vida",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente a prova de vida e se precisa ser feita",
+    "link": "precisofazerprovadevida.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 32,
+    "titulo": "Devolução de Descontos de Entidades para Herdeiros",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente a devolução dos valores descontados indevidamente por sindicatos e como solicitar essa devolução como herdeiro",
+    "link": "devolucaodescontosparaherdeiros.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 33,
+    "titulo": "Biometria Obrigatória para Novos Pedidos",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente a necessidade da biometria para novos pedidos administrativos INSS.",
+    "link": "biometriaobrigatoria.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 34,
+    "titulo": "Mudança de Orgão Pagador",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente a mudança de orgão pagador quando um banco é fechado.",
+    "link": "mudancaagentepagador.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 35,
+    "titulo": "Obrigatóriedade de Documentos de Identificação",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente a obrigatoriedade dos documentos de identidade na hora do atendimento.",
+    "link": "obrigatoriedadededocumentos.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 36,
+    "titulo": "Atendimento em Libras",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente ao atendimento em libras",
+    "link": "atendimentoemlibras.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 37,
+    "titulo": "Ainda não tem senha GOV?",
+    "categoria": "Senha GOV",
+    "descricao": "Cartaz informativo referente a criação da conta GOV.",
+    "link": "aindanaotemasenhadogov.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 38,
+    "titulo": "O INSS não faz ligações",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente a informação que o INSS não faz nenhuma ligação aos segurados.",
+    "link": "oinssnaoliga.png",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 39,
+    "titulo": "Procuração necessária",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente a obrigatoriedade de uma procuração ao querer representar alguém que não está presente.",
+    "link": "procuracaonecessaria.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 40,
+    "titulo": "Canais de Atendimento 135",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo referente aos canais de atendimento por telefone, 135.",
+    "link": "canais135.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 41,
+    "titulo": "CTC - Certidão de Tempo de Contribuição",
+    "categoria": "INSS",
+    "descricao": "Documento referente a CTC.",
+    "link": "ctcix.pdf",
+    "date": "16/12/2025"
+  },
+  {
+    "id": 42,
+    "titulo": "DTC - Declaração de Tempo de Contribuição",
+    "categoria": "INSS",
+    "descricao": "Documento referente a DTC.",
+    "link": "anexoix.docx",
+    "date": "16/12/2025"
   }
 ]
