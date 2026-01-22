@@ -8,7 +8,7 @@ interface SearchBarProps {
 
 const SearchBar: React.FC<SearchBarProps> = ({ value, onChange }) => {
     return (
-        <div className="relative w-full max-w-2xl mx-auto flex items-center mb-4">
+        <div className="relative w-full sm:max-w-2xl max-w-72 mx-auto flex items-center mb-4">
             <Search className="absolute left-3 h-5 w-5"/>
             <input 
                 type="text" 
