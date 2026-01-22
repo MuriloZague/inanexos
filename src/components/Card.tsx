@@ -8,15 +8,15 @@ export const Card: React.FC<{ form: Formulario }> = ({ form }) => {
 
       <div className="p-6">
       <div className="flex items-center mb-3">
-        <FileText className="h-5 w-5 mr-2 text-[#004db3]"/>
+        <FileText className="h-5 w-5 mr-2 hidden sm:block text-[#004db3]"/>
         <h2 className="text-xl font-semibold text-[#00214d]">{form.titulo}</h2>
       </div>
       <p className="text-[0.75rem] text-[#002c66] font-semibold bg-[#e0e9f5] max-w-max px-3 py-1 rounded-3xl">{form.categoria}</p>
 
-      <p className="text-[#5c708a] text-[1rem] mt-4 h-10">{form.descricao}</p>
+      <p className="text-[#5c708a] text-[1rem] mt-4 sm:h-10">{form.descricao}</p>
       </div>
 
-      <div className="border-t border-gray-300 px-6 py-4 flex items-center justify-between">
+      <div className="border-t border-gray-300 sm:px-6 px-3 py-4 flex items-center justify-between">
         <div className="flex items-center">
           <Calendar className="text-[#5c708a] h-4 w-4 mr-1" />
           <p className="text-[#5c708a] text-[0.9rem]">Atualizado em {form.date}</p>
