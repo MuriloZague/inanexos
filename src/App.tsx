@@ -31,7 +31,7 @@ const App: React.FC = () =>  {
       <Header />
       <SearchBar onChange={setBusca} value={busca}/>
     
-      <a className="text-center" onClick={() => navigate("/antigos")}>Arquivos Antigos</a>
+      <a className="text-center text-blue-800 font-bold cursor-pointer" onClick={() => navigate("/antigos")}>Formulários antigos</a>
 
       {filtrados.length === 0 ? (
         <p className="text-gray-500 text-center mt-8">
