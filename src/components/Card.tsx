@@ -2,7 +2,13 @@ import React from "react";
 import type { Formulario } from "../types";
 import { FileText, Calendar, Download } from "lucide-react";
 
-export const Card: React.FC<{ form: Formulario }> = ({ form }) => {
+interface CardProps{
+  form: Formulario;
+  color: string;
+}
+
+export const Card: React.FC<CardProps> = ({ form, color }) => {
+  
   return (
     <div className="bg-white rounded-lg border-2 border-[#5c708a] hover:border-[#bedbff] hover:shadow-lg transition">
 
@@ -18,11 +24,11 @@ export const Card: React.FC<{ form: Formulario }> = ({ form }) => {
 
       <div className="border-t border-gray-300 sm:px-6 px-3 py-4 flex items-center justify-between">
         <div className="flex items-center">
-          <Calendar className="text-[#5c708a] h-4 w-4 mr-1" />
+          <Calendar className="text-[#5c708a] h-4 w-4 mr-1"/>
           <p className="text-[#5c708a] text-[0.9rem]">Atualizado em {form.date}</p>
         </div>
         <div>
-          <a href={`/forms/${form.link}`} download className="bg-[#004db3] hover:bg-[#0a63d8] hover:cursor-pointer transition text-white flex py-[0.4rem] px-3 rounded-md items-center">
+          <a href={`/forms/${form.link}`} download className={`bg-${color} hover:${color === "blue-800" ? "bg-[#0a63d8]" : "bg-[#d8b20a]"} hover:cursor-pointer transition text-white flex py-[0.4rem] px-3 rounded-md items-center`}>
             <Download className="h-4 w-4 mr-2"/>
             <p>Baixar PDF</p>
           </a>

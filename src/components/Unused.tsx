@@ -36,7 +36,7 @@ const Unused: React.FC = () =>  {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4 sm:mx-24">
           {filtrados.map((form) => (
-            <Card key={form.id} form={form} />
+            <Card color='orange-400' key={form.id} form={form} />
           ))}
         </div>
       )}
