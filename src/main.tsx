@@ -9,7 +9,6 @@ import Unused from './components/Unused';
 createRoot(document.getElementById('root')!).render(
 <BrowserRouter>
   <StrictMode>
-    
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/antigos" element={<Unused />} />
