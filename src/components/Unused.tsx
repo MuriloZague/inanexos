@@ -1,20 +1,18 @@
-import Header from './components/Header'
-import SearchBar from './components/SearchBar'
-import { Card } from './components/Card';
-import type { Formulario } from './types';
-import { useNavigate } from 'react-router-dom';
+import Header from '../components/Header'
+import SearchBar from '../components/SearchBar'
+import { Card } from '../components/Card';
+import type { Formulario } from '../types';
 
 import React, { useEffect, useState } from "react";
-import Footer from './components/Footer';
+import Footer from '../components/Footer';
 
 
-const App: React.FC = () =>  {
+const Unused: React.FC = () =>  {
     const [formularios, setFormularios] = useState<Formulario[]>([]);
     const [busca, setBusca] = useState("");
-    const navigate = useNavigate();
 
     useEffect(() => {
-    fetch("/forms.json")
+    fetch("/forms-antigos.json")
       .then((res) => res.json())
       .then((data) => setFormularios(data))
       .catch((err) => console.error("Erro ao carregar JSON:", err));
@@ -28,11 +26,9 @@ const App: React.FC = () =>  {
   return (
     <section className='flex flex-col gap-10 mb-6'>
 
-      <Header subtitle='Todos os formulários/arquivos necessários estão aqui' />
+      <Header subtitle='Formulários antigos/em desuso' />
       <SearchBar onChange={setBusca} value={busca}/>
     
-      <a className="text-center text-blue-800 font-bold cursor-pointer hover:underline" onClick={() => navigate("/antigos")}>Acessar formulários antigos</a>
-
       {filtrados.length === 0 ? (
         <p className="text-gray-500 text-center mt-8">
           Nenhum formulário encontrado.
@@ -49,4 +45,4 @@ const App: React.FC = () =>  {
     </section>
   );
 };
-export default App;
+export default Unused;
