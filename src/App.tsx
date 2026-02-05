@@ -2,6 +2,7 @@ import Header from './components/Header'
 import SearchBar from './components/SearchBar'
 import { Card } from './components/Card';
 import type { Formulario } from './types';
+import { useNavigate } from 'react-router-dom';
 
 import React, { useEffect, useState } from "react";
 import Footer from './components/Footer';
@@ -10,6 +11,7 @@ import Footer from './components/Footer';
 const App: React.FC = () =>  {
     const [formularios, setFormularios] = useState<Formulario[]>([]);
     const [busca, setBusca] = useState("");
+    const navigate = useNavigate();
 
     useEffect(() => {
     fetch("/forms.json")
@@ -28,8 +30,8 @@ const App: React.FC = () =>  {
 
       <Header />
       <SearchBar onChange={setBusca} value={busca}/>
-
-      <a className="text-center" href="">Arquivos Antigos</a>
+    
+      <a className="text-center" onClick={() => navigate("/antigos")}>Arquivos Antigos</a>
 
       {filtrados.length === 0 ? (
         <p className="text-gray-500 text-center mt-8">
