@@ -2,7 +2,6 @@ import Header from '../components/Header'
 import SearchBar from '../components/SearchBar'
 import { Card } from '../components/Card';
 import type { Formulario } from '../types';
-import { useNavigate } from 'react-router-dom';
 
 import React, { useEffect, useState } from "react";
 import Footer from '../components/Footer';
@@ -11,7 +10,6 @@ import Footer from '../components/Footer';
 const Unused: React.FC = () =>  {
     const [formularios, setFormularios] = useState<Formulario[]>([]);
     const [busca, setBusca] = useState("");
-    const navigate = useNavigate();
 
     useEffect(() => {
     fetch("/forms-antigos.json")
@@ -28,7 +26,7 @@ const Unused: React.FC = () =>  {
   return (
     <section className='flex flex-col gap-10 mb-6'>
 
-      <Header />
+      <Header subtitle='Formulários antigos/em desuso' />
       <SearchBar onChange={setBusca} value={busca}/>
     
       {filtrados.length === 0 ? (

@@ -1,8 +1,11 @@
 import { FileSpreadsheet} from "lucide-react";
 import { useNavigate } from 'react-router-dom';
 
+interface HeaderProps{
+    subtitle: string;
+}
 
-function Header() {
+function Header({subtitle}: HeaderProps) {
     const navigate = useNavigate();
     
     return (
@@ -12,7 +15,7 @@ function Header() {
                     <FileSpreadsheet className="h-10 w-10 mr-3 hidden sm:block"/>
                     <p className="font-bold">Central de Formulários INSS</p>
                 </div>
-                <p className="text-lg">Todos os formulários/arquivos necessários estão aqui</p>
+                <p className="text-lg">{subtitle}</p>
             </div>
         </section>
     );
