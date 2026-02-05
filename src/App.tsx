@@ -28,7 +28,7 @@ const App: React.FC = () =>  {
   return (
     <section className='flex flex-col gap-10 mb-6'>
 
-      <Header subtitle='Todos os formulários/arquivos necessários estão aqui' />
+      <Header subtitle='Todos os formulários/arquivos necessários estão aqui' color='blue-800' />
       <SearchBar onChange={setBusca} value={busca}/>
     
       <a className="text-center text-blue-800 font-bold cursor-pointer hover:underline" onClick={() => navigate("/antigos")}>Acessar formulários antigos</a>

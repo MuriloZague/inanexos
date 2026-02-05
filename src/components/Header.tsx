@@ -3,13 +3,14 @@ import { useNavigate } from 'react-router-dom';
 
 interface HeaderProps{
     subtitle: string;
+    color: string;
 }
 
-function Header({subtitle}: HeaderProps) {
+function Header({subtitle, color}: HeaderProps) {
     const navigate = useNavigate();
     
     return (
-        <section className="bg-[#004db3] p-10 text-center">
+        <section className={`bg-${color} p-10 text-center`}>
             <div className="text-white flex flex-col justify-center items-center cursor-pointer" onClick={() => navigate("/")}>
                 <div className="flex text-4xl mb-2">
                     <FileSpreadsheet className="h-10 w-10 mr-3 hidden sm:block"/>
