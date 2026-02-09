@@ -26,7 +26,7 @@ const Unused: React.FC = () =>  {
   return (
     <section className='flex flex-col gap-10 mb-6'>
 
-      <Header subtitle='Formulários antigos/em desuso' color='orange-400' />
+      <Header subtitle='Formulários antigos/em desuso' color='bg-orange-400' />
       <SearchBar onChange={setBusca} value={busca}/>
     
       {filtrados.length === 0 ? (
