@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
 import Footer from './components/Footer';
 
-
 const App: React.FC = () =>  {
     const [formularios, setFormularios] = useState<Formulario[]>([]);
     const [busca, setBusca] = useState("");
