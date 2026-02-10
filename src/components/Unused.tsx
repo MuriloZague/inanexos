@@ -6,7 +6,6 @@ import type { Formulario } from '../types';
 import React, { useEffect, useState } from "react";
 import Footer from '../components/Footer';
 
-
 const Unused: React.FC = () =>  {
     const [formularios, setFormularios] = useState<Formulario[]>([]);
     const [busca, setBusca] = useState("");
