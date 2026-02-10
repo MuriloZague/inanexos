@@ -2,7 +2,6 @@ import Header from '../components/Header'
 import SearchBar from '../components/SearchBar'
 import { Card } from '../components/Card';
 import type { Formulario } from '../types';
-
 import React, { useEffect, useState } from "react";
 import Footer from '../components/Footer';
 
