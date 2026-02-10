@@ -1,6 +1,5 @@
 import { Search } from "lucide-react";
 
-
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
@@ -21,5 +20,4 @@ const SearchBar: React.FC<SearchBarProps> = ({ value, onChange }) => {
         </div>
     );
 }
-
 export default SearchBar;
