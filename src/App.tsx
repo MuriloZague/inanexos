@@ -40,7 +40,7 @@ const App: React.FC = () =>  {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4 sm:mx-24">
           {filtrados.map((form) => (
-            <Card color='blue-800' key={form.id} form={form} />
+            <Card color='bg-blue-800' key={form.id} form={form} />
           ))}
         </div>
       )}
