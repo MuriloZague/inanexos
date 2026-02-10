@@ -26,7 +26,7 @@ const Unused: React.FC = () =>  {
   return (
     <section className='flex flex-col gap-10 mb-6'>
 
-      <Header subtitle='Formulários antigos/em desuso' color='bg-orange-400' />
+      <Header subtitle='Formulários antigos/em desuso' blue={false} />
       <SearchBar onChange={setBusca} value={busca}/>
     
       {filtrados.length === 0 ? (
@@ -36,7 +36,7 @@ const Unused: React.FC = () =>  {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4 sm:mx-24">
           {filtrados.map((form) => (
-            <Card color='bg-orange-400' key={form.id} form={form} />
+            <Card blue={false} key={form.id} form={form} />
           ))}
         </div>
       )}

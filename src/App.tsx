@@ -28,7 +28,7 @@ const App: React.FC = () =>  {
   return (
     <section className='flex flex-col gap-10 mb-6'>
 
-      <Header subtitle='Todos os formulários/arquivos necessários estão aqui' color='bg-blue-800' />
+      <Header subtitle='Todos os formulários/arquivos necessários estão aqui' blue={true} />
       <SearchBar onChange={setBusca} value={busca}/>
     
       <a className="text-center text-blue-800 font-bold cursor-pointer hover:underline" onClick={() => navigate("/antigos")}>Acessar formulários antigos</a>
@@ -40,7 +40,7 @@ const App: React.FC = () =>  {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4 sm:mx-24">
           {filtrados.map((form) => (
-            <Card color='bg-blue-800' key={form.id} form={form} />
+            <Card blue={true} key={form.id} form={form} />
           ))}
         </div>
       )}

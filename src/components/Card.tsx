@@ -4,10 +4,10 @@ import { FileText, Calendar, Download } from "lucide-react";
 
 interface CardProps{
   form: Formulario;
-  color: string;
+  blue: boolean;
 }
 
-export const Card: React.FC<CardProps> = ({ form, color }) => {
+export const Card: React.FC<CardProps> = ({ form, blue }) => {
   
   return (
     <div className="bg-white rounded-lg border-2 border-[#5c708a] hover:border-[#bedbff] hover:shadow-lg transition">
@@ -28,7 +28,7 @@ export const Card: React.FC<CardProps> = ({ form, color }) => {
           <p className="text-[#5c708a] text-[0.9rem]">Atualizado em {form.date}</p>
         </div>
         <div>
-          <a href={`/forms/${form.link}`} download className={`${color} hover:cursor-pointer transition text-white flex py-[0.4rem] px-3 rounded-md items-center`}>
+          <a href={`/forms/${form.link}`} download className={`${blue ? "bg-blue-800" : "bg-orange-400"} hover:cursor-pointer transition text-white flex py-[0.4rem] px-3 rounded-md items-center`}>
             <Download className="h-4 w-4 mr-2"/>
             <p>Baixar PDF</p>
           </a>
