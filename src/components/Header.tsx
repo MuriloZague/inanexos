@@ -8,7 +8,6 @@ interface HeaderProps{
 
 function Header({subtitle, blue}: HeaderProps) {
     const navigate = useNavigate();
-    
     return (
         <section className={`${blue ? "bg-blue-800" : "bg-orange-400"} p-10 text-center`}>
             <div className="text-white flex flex-col justify-center items-center cursor-pointer" onClick={() => navigate("/")}>
