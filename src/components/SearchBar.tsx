@@ -21,5 +21,4 @@ const SearchBar: React.FC<SearchBarProps> = ({ value, onChange }) => {
         </div>
     );
 }
-
 export default SearchBar;
