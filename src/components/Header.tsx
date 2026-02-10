@@ -21,5 +21,4 @@ function Header({subtitle, blue}: HeaderProps) {
         </section>
     );
 }
-
 export default Header;
