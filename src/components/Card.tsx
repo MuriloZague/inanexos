@@ -28,7 +28,7 @@ export const Card: React.FC<CardProps> = ({ form, blue }) => {
           <p className="text-[#5c708a] text-[0.9rem]">Atualizado em {form.date}</p>
         </div>
         <div>
-          <a href={`/forms/${form.link}`} download className={`${blue ? "bg-blue-800" : "bg-orange-400"} hover:cursor-pointer transition text-white flex py-[0.4rem] px-3 rounded-md items-center`}>
+          <a href={`/forms/${form.link}`} download className={`hover:cursor-pointer transition text-white flex py-[0.4rem] px-3 rounded-md items-center`} style={{backgroundColor: blue ? "#193cb8" : "#ff8904"}}>
             <Download className="h-4 w-4 mr-2"/>
             <p>Baixar PDF</p>
           </a>
