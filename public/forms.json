@@ -44,7 +44,7 @@
     "titulo": "Modelo Saldo Residual - 1 Benefício",
     "categoria": "Saldo Residual",
     "descricao": "Documento de modelo para saldo residual de falecido, modelo de 1 benefício.",
-    "link": "modelo-saldo-residual-1beneficio.doc",
+    "link": "modelo-saldo-residual-1beneficio(vera).doc",
     "date": "07/10/2025"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "titulo": "Valores de Contribuição do INSS - 2026",
+    "titulo": "Valores de Contribuição do INSS - 2026 (2 por folha)",
     "categoria": "INSS",
     "descricao": "Documento que mostra os valores para contribuintes facultativos e autonomos em 11% e 20% do salário mínimo (2026).",
     "link": "valores-contribuicao.pdf",
@@ -334,5 +334,13 @@
     "descricao": "Documento referente a DTC.",
     "link": "AnexoIV.docx",
     "date": "16/12/2025"
+  },
+  {
+    "id": 43,
+    "titulo": "Valores de Contribuição do INSS - 2026 (1 por folha)",
+    "categoria": "INSS",
+    "descricao": "Documento que mostra os valores para contribuintes facultativos e autonomos em 11% e 20% do salário mínimo (2026).",
+    "link": "valores-contribuicao.pdf",
+    "date": "12/02/2026"
   }
 ]

@@ -4,10 +4,12 @@ import { Card } from '../components/Card';
 import type { Formulario } from '../types';
 import React, { useEffect, useState } from "react";
 import Footer from '../components/Footer';
+import { useNavigate } from 'react-router-dom';
 
 const Unused: React.FC = () =>  {
     const [formularios, setFormularios] = useState<Formulario[]>([]);
     const [busca, setBusca] = useState("");
+    const navigate = useNavigate();
 
     useEffect(() => {
     fetch("/forms-antigos.json")
@@ -26,6 +28,8 @@ const Unused: React.FC = () =>  {
 
       <Header subtitle='Formulários antigos/em desuso' blue={false} />
       <SearchBar onChange={setBusca} value={busca}/>
+
+      <a className="text-center text-orange-400 font-bold cursor-pointer hover:underline" onClick={() => navigate("/")}>Acessar formulários recentes</a>
     
       {filtrados.length === 0 ? (
         <p className="text-gray-500 text-center mt-8">
