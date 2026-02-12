@@ -30,7 +30,7 @@ const App: React.FC = () =>  {
       <Header subtitle='Todos os formulários/arquivos necessários estão aqui' blue={true} />
       <SearchBar onChange={setBusca} value={busca}/>
     
-      <a className="text-center text-blue-800 font-bold cursor-pointer hover:underline" onClick={() => navigate("/antigos")}>Acessar formulários antigos</a>
+      <a className="text-center text-blue-800 font-bold cursor-pointer hover:underline" onClick={() => navigate("/antigos")}>Acessar formulários expirados</a>
 
       {filtrados.length === 0 ? (
         <p className="text-gray-500 text-center mt-8">
