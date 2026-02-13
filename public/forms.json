@@ -342,5 +342,13 @@
     "descricao": "Documento que mostra os valores para contribuintes facultativos e autonomos em 11% e 20% do salário mínimo (2026).",
     "link": "valores-contribuicao.pdf",
     "date": "12/02/2026"
+  },
+  {
+    "id": 44,
+    "titulo": "Tabela Fator de Reajuste Benefícios - 2026",
+    "categoria": "INSS",
+    "descricao": "Tabela que mostra a % do reajuste dos benefícios concedidos a partir de janeiro de 2026",
+    "link": "reajuste-salario.png",
+    "date": "13/02/2026"
   }
 ]
