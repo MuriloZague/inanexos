@@ -5,7 +5,6 @@ import App from './App.tsx'
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Unused from './components/Unused';
 
-
 createRoot(document.getElementById('root')!).render(
 <BrowserRouter>
   <StrictMode>
