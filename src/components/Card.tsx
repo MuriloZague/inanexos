@@ -8,7 +8,6 @@ interface CardProps{
 }
 
 export const Card: React.FC<CardProps> = ({ form, blue }) => {
-  
   return (
     <div className="bg-white rounded-lg border-2 border-[#5c708a] hover:border-[#bedbff] hover:shadow-lg transition">
 
