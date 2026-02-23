@@ -24,12 +24,9 @@ const Unused: React.FC = () =>  {
 
   return (
     <section className='flex flex-col gap-10 mb-6'>
-
       <Header subtitle='Formulários antigos/em desuso' blue={false} />
       <SearchBar onChange={setBusca} value={busca}/>
-
       <a className="text-center text-orange-400 font-bold cursor-pointer hover:underline" onClick={() => navigate("/")}>Acessar formulários recentes</a>
-    
       {filtrados.length === 0 ? (
         <p className="text-gray-500 text-center mt-8">
           Nenhum formulário encontrado.
