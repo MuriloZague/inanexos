@@ -38,7 +38,6 @@ const Unused: React.FC = () =>  {
           ))}
         </div>
       )}
-
       <Footer />
     </section>
   );
