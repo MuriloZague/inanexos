@@ -3,7 +3,6 @@ import SearchBar from './components/SearchBar'
 import { Card } from './components/Card';
 import type { Formulario } from './types';
 import { useNavigate } from 'react-router-dom';
-
 import React, { useEffect, useState } from "react";
 import Footer from './components/Footer';
 
