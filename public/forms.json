@@ -121,7 +121,7 @@
   },
   {
     "id": 16,
-    "titulo": "Capa AP com Banco",
+    "titulo": "Capa AP com Banco - 1 Benefício",
     "categoria": "INSS",
     "descricao": "Capa de modelo para AP's com banco, apenas remover o campo banco de a AP não possuir.",
     "link": "capa-ap-banco.odt",
@@ -350,5 +350,13 @@
     "descricao": "Tabela que mostra a % do reajuste dos benefícios concedidos a partir de janeiro de 2026",
     "link": "reajuste-salario.png",
     "date": "13/02/2026"
+  },
+  {
+    "id": 45,
+    "titulo": "Capa AP com Banco - 2 Benefícios",
+    "categoria": "INSS",
+    "descricao": "Capa de modelo para AP's com banco, apenas remover o campo banco de a AP não possuir.",
+    "link": "capa-ap-2-beneficios.odt",
+    "date": "25/02/2026"
   }
 ]
