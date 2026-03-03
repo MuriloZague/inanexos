@@ -358,5 +358,13 @@
     "descricao": "Capa de modelo para AP's com banco, apenas remover o campo banco se a AP não possuir.",
     "link": "capa-ap-2-beneficios.odt",
     "date": "25/02/2026"
+  },
+  {
+    "id": 46,
+    "titulo": "Revisão de Benefício",
+    "categoria": "Recursos",
+    "descricao": "Modelo de formulário a ser preenchido em caso de pedido de revisão administrativa de benefícios",
+    "link": "revisa-beneficio.pdf",
+    "date": "03/03/2026"
   }
 ]
