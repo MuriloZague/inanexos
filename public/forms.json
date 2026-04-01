@@ -366,5 +366,13 @@
     "descricao": "Modelo de formulário a ser preenchido em caso de pedido de revisão administrativa de benefícios",
     "link": "revisa-beneficio.pdf",
     "date": "03/03/2026"
+  },
+  {
+    "id": 47,
+    "titulo": "Autodeclaração Benefício por Incapacidade",
+    "categoria": "INSS",
+    "descricao": "Modelo de formulário a ser preenchido em caso de pedido de auxílio doença",
+    "link": "AUTODECLARACAO-BI.docx",
+    "date": "01/04/2026"
   }
 ]
