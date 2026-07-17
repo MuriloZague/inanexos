@@ -374,5 +374,13 @@
     "descricao": "Modelo de formulário a ser preenchido em caso de pedido de auxílio doença",
     "link": "autodeclaracao-bi2.pdf",
     "date": "01/04/2026"
+  },
+  {
+    "id": 48,
+    "titulo": "Documentos necessários para Procurador no INSS",
+    "categoria": "Procuração",
+    "descricao": "Documentos necessários para cadastro de procurador no INSS",
+    "link": "Documentos_Procuracao.pdf",
+    "date": "17/07/2026"
   }
 ]
