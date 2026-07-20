@@ -382,5 +382,13 @@
     "descricao": "Documentos necessários para cadastro de procurador no INSS",
     "link": "Documentos_Procuracao.pdf",
     "date": "17/07/2026"
+  },
+  {
+    "id": 49,
+    "titulo": "Declaração de emancipado",
+    "categoria": "INSS",
+    "descricao": "Declaração de emancipação do INSS",
+    "link": "declaracao-emancipado.pdf",
+    "date": "20/07/2026"
   }
 ]
