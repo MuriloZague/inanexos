@@ -398,5 +398,13 @@
     "descricao": "Modelo que mostra todos os tipos de textos para criação de saldo residual.",
     "link": "SALDO RESIDUAL RESPOSTA-PDF.pdf",
     "date": "18/09/2026"
+  },
+  {
+    "id": 51,
+    "titulo": "Seu voto vale como prova de vida",
+    "categoria": "INSS",
+    "descricao": "Cartaz informativo que orienta: ao votar nas eleições, a comprovação de vida perante ao INSS é garantida.",
+    "link": "VOTO_PROVA_DE_VIDA.pdf",
+    "date": "24/09/2026"
   }
 ]
